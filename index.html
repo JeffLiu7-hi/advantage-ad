@@ -1,3 +1,166 @@
-<html>
-  <h1>Test Page</h1>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AdsForFunStuff - A desktop application where users can earn points by watching ads and purchase products">
+    <title>AdsForFunStuff - Desktop Application</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 40px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        .feature-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .feature-list li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 1.1em;
+        }
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #27ae60;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        .highlight {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .tech-badge {
+            background: #3498db;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AdsForFunStuff</h1>
+        <p class="subtitle">Desktop Application - Ad-Based Rewards System</p>
+        
+        <h2>About</h2>
+        <p>
+            AdsForFunStuff is a desktop application built with Python and tkinter that allows users to earn points by watching ads and use those points to purchase products. The application features a client-server architecture where product management is handled on the server side, while users interact through a standalone desktop client.
+        </p>
+        
+        <div class="highlight">
+            <strong>Ad Integration:</strong> This application integrates EthicalAds to display privacy-friendly, non-tracking advertisements. Users watch ads within the application to earn points, which can then be used to purchase products.
+        </div>
+        
+        <h2>Features</h2>
+        <ul class="feature-list">
+            <li>Watch ads to earn points (integrated with EthicalAds)</li>
+            <li>Browse products from server</li>
+            <li>Purchase products using earned points</li>
+            <li>View purchase history</li>
+            <li>Client-server architecture for centralized product management</li>
+        </ul>
+        
+        <h2>Technical Details</h2>
+        <p><strong>Platform:</strong> Desktop Application (Windows, macOS, Linux)</p>
+        <p><strong>Technology Stack:</strong></p>
+        <div class="tech-stack">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">tkinter</span>
+            <span class="tech-badge">Flask</span>
+            <span class="tech-badge">SQLite</span>
+            <span class="tech-badge">EthicalAds</span>
+        </div>
+        
+        <h2>Ad Display</h2>
+        <p>
+            EthicalAds advertisements are displayed within the application using an embedded browser view. When users click "Watch Ad", the application opens an HTML page containing the EthicalAds integration code in the default web browser. Users must watch the ad for the specified duration (default: 30 seconds) to earn points.
+        </p>
+        
+        <h2>Application Architecture</h2>
+        <p>
+            The application uses a client-server model:
+        </p>
+        <ul class="feature-list">
+            <li><strong>Server:</strong> Flask-based API server for product management and order processing</li>
+            <li><strong>Client:</strong> Standalone tkinter desktop application for end users</li>
+            <li><strong>Communication:</strong> RESTful API for product synchronization and order submission</li>
+        </ul>
+        
+        <h2>Target Audience</h2>
+        <p>
+            This application is designed for users who want to earn rewards by engaging with advertisements. The ad-based monetization model allows users to access products and services through ad engagement rather than direct payment.
+        </p>
+        
+        <h2>Privacy & Ethics</h2>
+        <p>
+            We chose EthicalAds because of its commitment to privacy-friendly advertising without tracking. This aligns with our goal of providing a transparent and ethical ad-based rewards system.
+        </p>
+        
+        <div class="footer">
+            <p>For more information about EthicalAds integration, please contact us.</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">Repository: <a href="https://github.com/jeffliu7-hi/affs-ad" target="_blank">jeffliu7-hi/affs-ad</a></p>
+        </div>
+    </div>
+</body>
 </html>

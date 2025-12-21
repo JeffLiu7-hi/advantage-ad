@@ -1,0 +1,17 @@
+# AdsForFunStuff - GitHub Pages
+
+This is the GitHub Pages site for AdsForFunStuff desktop application, used for EthicalAds publisher registration.
+
+## Repository
+
+- GitHub: https://github.com/jeffliu7-hi/affs-ad
+- Pages URL: https://jeffliu7-hi.github.io/affs-ad
+
+## About AdsForFunStuff
+
+AdsForFunStuff is a desktop application that allows users to earn points by watching ads and purchase products using those points.
+
+## EthicalAds Integration
+
+This application integrates EthicalAds to display privacy-friendly advertisements. Users watch ads within the application to earn rewards.
+
