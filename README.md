@@ -1,15 +1,15 @@
-# AdsForFunStuff - GitHub Pages
+# AdVantage - GitHub Pages
 
-This is the GitHub Pages site for AdsForFunStuff desktop application, used for EthicalAds publisher registration.
+This is the GitHub Pages site for AdVantage desktop application, used for EthicalAds publisher registration.
 
 ## Repository
 
 - GitHub: https://github.com/jeffliu7-hi/affs-ad
 - Pages URL: https://jeffliu7-hi.github.io/affs-ad
 
-## About AdsForFunStuff
+## About AdVantage
 
-AdsForFunStuff is a desktop application that allows users to earn points by watching ads and purchase products using those points.
+AdVantage is a desktop application that allows users to earn points by watching ads and purchase products using those points.
 
 ## EthicalAds Integration
 
